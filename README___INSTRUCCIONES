@@ -1,0 +1,60 @@
+=================README=====================
+====INSTRUCCIONES PARA INICIAR HOMEROMAN====
+============================================
+============================================
+0) Instalar pygame y pyopengl
+1) Descomprimir en la misma carpeta, Modulos.zip y Audios y Musica.zip.
+2) Abrir el archivo main.py, no cambiar nada.
+3) Correrlo, la consola preguntara nivel de dificultad, numero de jugadores ,cantidad de niveles a jugar, si quiere ir cambiando la dificultad a la medida que progresa en los niveles y si eso es afirmativo cada cuantos y hasta cual dificultad desea jugar (estas deben ser mas facil).
+4) Disfrute.
+
+OBSERVACIONES:
+-Puede llegar a suceder que la dificultad dificil y extremo (principalmente este ultimo) no lleguen a verse debido al proceso aleatorio de creacion, si esto sucede reiniciar el juego. Para jugar en el estado optimo recomiendo nivel medio o facil que corren al 100%. 
+
+-Si el juego se llega a saturar y freezear, apretar p y luego inmediatamente r para que refresque la pantalla
+
+===========INSTRUCCIONES DEL JUEGO=========
+===========================================
+
+===MODO SINGLE PLAYER===
+El jugador es Homero Simpson, este se mueve con las flechas arriba, abajo, derecha e izquierda. Si cambia de direccion y quiere caminar debe apretar dos veces esa flecha, dado que aveces quiere poner una bomba en una direccion y no caminar hacia ella (esta hecho asi a proposito). Usted pone bombas con la letra "a" del teclado y explotan despues de tres segundos. Los enemigos son Ned Flanders y Rafa Gorgori, si llega a tocarlos pierde automaticamente cerrandose el juego. Pone pausa con "p" y resume con "r" (esta bugeado eso si este proceso). Ademas, pierde si llega a tocar una explosion. La forma de avanzar de nivel/ganar (dependiendo cuantos niveles puso) es encontrar la cerveza dentro de una de las cajas destructibles. Iran apareciendo Donas a medida que pasa el tiempo y cada nivel parte con dos. Estas pueden estar debajo de las cajas destructibles y segun su color (o frosting) recibira un power up distinto y su camisa cambiara de color segun el ultimo power up obtenido, la lista con los detalles esta mas abajo.
+
+RESUMEN DE CONTROLES:
+Flecha arriba: apunta/mueve hacia arriba
+Flecha abajo: apunta/mueve hacia abajo
+Flecha derecha: apunta/mueve hacia la derecha
+Flecha izquierda: apunta/mueve hacia la izquierda
+Letra a: poner bomba en la direccion en que apunta
+
+RESUMEN POWER UPS:
+Dona naranja: Le agrega uno de rango a las explosiones, dura 15 segundos y la camisa se vuelve naranja.
+Dona roja: Le permite atravesar paredes (o una seguidilla de esta con bombas), dura 10 segundos y la camisa se vuelve roja.
+Dona azul: Le permite atravezar bombas (o una seguidilla de esta con paredes), dura 10 segundos y la camisa se vuelve azul.
+Dona rosada: Se vuelve invencible durante 5 segundos, no puede morir y la camisa se vuelve dorada.
+Dona blanca: Permite hacer explosiones en cadena con las bombas, dura 15 segundos y su camisa se vuelve negra.
+
+===MODO MULTI PLAYER===
+El juego soporta hasta 2 jugadores al mismo tiempo, siendo el jugador 1 Homero Simpson y el jugador 2 Marge Simpson. Las mecanicas son las mismas que la vez anterior excepto los siguientes cambios:
+-Para perder, los dos jugadores deben haber perdido.
+-Si pierde uno, ese jugador para de jugar.
+-Si un jugador pierde y el otro avanza de nivel, el jugador muerto NO ES REVIVIDO
+-No se comparten power ups (es decir si uno lo agarra, solo ese jugador tiene ese power up)
+-Si es Marge Simpson, el vestido le cambiara segun el power up que tiene actualmente
+OBSERVACION: Puede tener bugs jugar de dos jugadores.
+Los controles son los siguientes:
+========CONTROLES JUGADOR 1=========
+Flecha arriba: apunta/mueve hacia arriba
+Flecha abajo: apunta/mueve hacia abajo
+Flecha derecha: apunta/mueve hacia la derecha
+Flecha izquierda: apunta/mueve hacia la izquierda
+Tecla Backspace: poner bomba en la direccion en que apunta
+
+========CONTROLES JUGADOR 2=========
+Letra w: apunta/mueve hacia arriba
+Letra s: apunta/mueve hacia abajo
+Letra a: apunta/mueve hacia la izquierda
+Letra d: apunta/mueve hacia la derecha
+Letra b: poner bomba en la direccion en que apunta
+
+Version 1.0.6
+
